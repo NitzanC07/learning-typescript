@@ -12,3 +12,6 @@ console.log(element2?.href);
 
 const form = document.querySelector(".sample-form") as HTMLFormElement;
 console.log(form.children);
+
+const input = document.querySelector(".input-fname") 
+console.log("Input", input);

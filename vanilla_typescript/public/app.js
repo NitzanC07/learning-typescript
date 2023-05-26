@@ -10,3 +10,5 @@ const element2 = document.querySelector("a");
 console.log(element2 === null || element2 === void 0 ? void 0 : element2.href);
 const form = document.querySelector(".sample-form");
 console.log(form.children);
+const input = document.querySelector(".input-fname");
+console.log("Input", input);
