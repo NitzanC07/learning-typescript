@@ -15,14 +15,19 @@
         <h1>Who are you?</h1>
         <label>
             First name:
-            <input class="input-fname" />
+            <input id="input-fname" type="name" />
         </label>
         <label>
             Last name:
-            <input class="input-lname" />
+            <input id="input-lname" type="name" />
         </label>
-        <button class="button-submit" type="submit">Submit</button>
+        <label>
+            Age:
+            <input id="input-age" type="number" />
+        </label>
+        <button id="button-submit" type="submit">Submit</button>
     </form>
+    <div class="form-result"></div>
 
     <script src="./app.js"></script>
 

@@ -5,18 +5,41 @@ form {
     align-items: center;
     border: 1px solid #000;
     width: 400px;
-    margin: 0 auto;
-    padding: 15px 0;
+    margin: 10px auto;
+    padding: 15px 10px;
 }
 label {
     font-size: 18px;
     line-height: 20px;
+    width: 70%;
+    display: flex;
+    justify-content: space-between;
+}
+label:hover {
+    background-color: #ddd;
 }
 input {
     background-color: antiquewhite;
     border: 0;
+    outline: 1px solid burlywood;
 }
 
 input:hover {
     background-color: burlywood;
+    outline: 2px solid rgb(128, 73, 1);
+}
+input:focus {
+    background-color: burlywood;
+    outline: 3px solid rgb(128, 73, 1);
+}
+
+.form-result {
+    display: flex;
+    flex-direction: column;
+    /* gap: 20px; */
+    align-items: center;
+    border: 1px solid #000;
+    width: 400px;
+    margin: 0 auto;
+    padding: 15px 10px;
 }
